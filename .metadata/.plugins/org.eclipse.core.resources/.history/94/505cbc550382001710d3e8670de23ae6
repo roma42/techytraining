@@ -35,11 +35,7 @@ $(document).ready(function(){
 	       
 	    });
 	 
-	 $("#comment").click(function(){
-		 console.log("inside comment function");
-		 window.open('comments.html', 'yay comment', 'width=400,height=200,scrollbars=yes'); 
-		 
-		 });
+	 
 	
 });
 function toggleImage (){
