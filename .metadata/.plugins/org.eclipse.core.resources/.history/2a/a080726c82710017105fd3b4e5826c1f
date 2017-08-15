@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>project1</title>
+<style type="text/css">
+h1 {
+color: blue;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+background-color: orange;
+}
+</style>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<h1>hello world</h1>
+<p>u are cool</p>
+<div>
+<img alt="troye sivan" src="DSCN1973.jpg" height="25%" width="25%" title="troye"/>
+</div>
+<hr/>
+<button>
+click me
+</button>
+</body>
+</html>

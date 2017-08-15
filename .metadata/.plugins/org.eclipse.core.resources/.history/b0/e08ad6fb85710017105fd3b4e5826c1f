@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>project1</title>
+<style type="text/css">
+h1 {
+color: blue;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+background-color: orange;
+}
+</style>
+<script type="text/javascript">
+function A (){
+	alert ("look at this picture!");
+	var myPicDiv = document.getElementById('picdiv');
+	myPicDiv.style.display = 'none';
+}
+</script>
+</head>
+<body>
+<h1>hello world</h1>
+<p>u are cool</p>
+<div id="picdiv" style= "visibility: block">
+<img alt="troye sivan" src="DSCN1973.jpg" height="25%" width="25%" title="troye"/>
+</div>
+<hr/>
+<button onclick="A()">
+click me
+</button>
+</body>
+</html>

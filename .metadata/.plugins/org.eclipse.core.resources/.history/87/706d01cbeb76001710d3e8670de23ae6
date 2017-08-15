@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>project1</title>
+<style type="text/css">
+h1 {
+color: blue;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+background-color: orange;
+}
+</style>
+<script type="text/javascript">
+function A (){
+	//alert ("look at this picture!");
+	var myPicDiv = document.getElementById('picdiv');
+	myPicDiv.style.visibility = 'visible'; }
+</script>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+function toggleImage (){
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+}
+</script>
+</head>
+<body>
+<h1>hello world</h1>
+<p>u are cool</p>
+<div id="picdiv" style= "visibility: hidden">
+<img alt="troye sivan" src="DSCN1973.jpg" height="25%" width="25%" title="troye"/>
+</div>
+<hr/>
+<button onclick="toggleImage()">
+Toggle the image.
+</button>
+</body>
+</html>

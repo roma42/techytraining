@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+/Users/roma/Google Drive/tech/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3162672622.index
+2486432841.index
+2442374811.index
+2442374811.index
+322169189.index
+3307713421.index
+3813963771.index
+3218213850.index
